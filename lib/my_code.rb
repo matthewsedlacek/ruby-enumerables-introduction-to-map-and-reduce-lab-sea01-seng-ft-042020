@@ -68,11 +68,11 @@ end
  return true
 end
 
-def reduce_to_all_true(source_array)
+def reduce_to_any_true(source_array)
 i=0
 while source_array.length > i do 
-  return true if source_array[i] == false
+  return true if source_array[i] == true
     i+=1
 end
- return true
+ return false
 end
