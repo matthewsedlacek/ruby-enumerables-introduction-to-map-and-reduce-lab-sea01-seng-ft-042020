@@ -67,5 +67,3 @@ while source_array.length > i do
 end
  return true
 end
-
- reduce_to_all_true([1, 2, true, "razmatazz", false])
