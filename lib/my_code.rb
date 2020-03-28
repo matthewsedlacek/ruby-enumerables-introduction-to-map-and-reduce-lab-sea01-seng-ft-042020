@@ -67,3 +67,12 @@ while source_array.length > i do
 end
  return true
 end
+
+def reduce_to_all_true(source_array)
+i=0
+while source_array.length > i do 
+  return true if source_array[i] == false
+    i+=1
+end
+ return true
+end
