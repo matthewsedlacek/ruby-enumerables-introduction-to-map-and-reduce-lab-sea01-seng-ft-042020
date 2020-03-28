@@ -59,13 +59,13 @@ def reduce_to_total(source_array,starting_point = 0)
   total
 end
 
-def reduce_to_total(source_array)
-  i = 0
-  total = starting_point
- 
-  while i < source_array.length do
-  total += source_array[i]
-  i +=1
-  end
-  total
+def reduce_to_all_true(source_array)
+i=0
+while source_array.length > i do 
+  return false if source_array[i] == false
+    i+=1
 end
+ return true
+end
+
+ reduce_to_all_true([1, 2, true, "razmatazz", false])
