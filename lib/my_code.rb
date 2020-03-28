@@ -11,7 +11,7 @@ def map_to_negativize(source_array)
   result
 end
 
-def map_to_negativize(source_array)
+def map_to_no_change(source_array)
   i = 0 
   result = []
   
